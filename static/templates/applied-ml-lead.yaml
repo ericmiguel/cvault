@@ -1,0 +1,113 @@
+contact:
+  fullName: 'Aria F. Calderon'
+  city: 'Seattle, WA'
+  phone: '+1 (206) 555-4826'
+  email: 'aria.calderon@mlguild.ai'
+  linkedin: 'https://linkedin.com/in/ariafcalderon'
+  github: 'https://github.com/aria-calderon'
+
+sectionTitles:
+  summary: 'Executive Snapshot'
+  skills: 'Research Strengths'
+  experience: 'Leadership Experience'
+  projects: 'Open Research'
+  education: 'Academic Highlights'
+
+style:
+  # Visual toggles
+  showHeaderBorder: true
+  showTitleBorder: true
+  showCardSideBorder: false
+  useIcons: true
+
+  # Colors
+  accentColor: '#0f766e'
+
+  # Typography
+  titleFont: "'IBM Plex Sans', 'Inter', sans-serif"
+  bodyFont: "'IBM Plex Serif', 'Source Serif 4', serif"
+  listFont: "'IBM Plex Sans', 'Inter', sans-serif"
+  baseFontSize: '14px'
+  documentTitleSize: '1.6em'
+  titleSize: '1.15em'
+  subTitleSize: '1.1em'
+  bodyTextSize: '1em'
+
+  # Spacing
+  sectionSpacing: '26px'
+  itemSpacing: '18px'
+  titleSpacing: '12px'
+  subTitleSpacing: '4px'
+  lineSpacing: 'dense'
+
+  # Badges
+  badgeShape: 'rectangular'
+  badgeStyle: 'link'
+
+  # Inline modes
+  inlineSkills: true
+  inlineExperience: false
+  inlineEducation: false
+  inlineProjects: false
+  inlineContactHeader: false
+
+  # Contact layout
+  contactLayout: 'left'
+  contactItemsPerLine: 3
+
+  # Page breaks
+  pageBreaks:
+    avoidBreakInExperience: true
+    avoidBreakInProjects: true
+    avoidBreakInEducation: true
+
+  # Page margins
+  pageMargins:
+    firstPageTop: 16
+    otherPagesTop: 28
+    bottom: 34
+    left: 52
+    right: 52
+
+summary:
+  text: 'Applied machine learning leader translating frontier research into equitable AI products with cross-disciplinary teams.'
+
+skills:
+  - category: 'Strategic Leadership'
+    skills:
+      - 'Responsible AI Governance'
+      - 'Research Portfolio Planning'
+      - 'Executive Storytelling'
+  - category: 'Applied ML Systems'
+    skills:
+      - 'Foundation Model Adaptation'
+      - 'Evaluation Pipelines'
+      - 'MLOps Automation'
+  - category: 'Methods'
+    skills:
+      - 'Causal Inference'
+      - 'Active Learning'
+
+experience:
+  - position: 'Director of Applied ML'
+    company: 'Crescent Health'
+    period: 'Jun 2019 - Present'
+    description: 'Guides 45 researchers and engineers applying machine learning across care routing, provider tooling, and clinical insights.'
+  - position: 'Senior Staff Research Scientist'
+    company: 'Nimbus Labs'
+    period: 'Feb 2015 - May 2019'
+    description: 'Architected privacy-preserving predictive services for enterprise collaboration products and internal tooling.'
+
+projects:
+  - name: 'MedAtlas Benchmarks'
+    description: 'Open benchmark suite evaluating diagnostic foundation models across demographic slices and care settings.'
+    technologies:
+      - 'PyTorch'
+      - 'Weights & Biases'
+      - 'Apache Arrow'
+    repo: 'https://github.com/priyanatarajan/medatlas'
+
+education:
+  - degree: 'Ph.D. in Computer Science, Machine Learning'
+    institution: 'Massachusetts Institute of Technology'
+    year: '2009 - 2014'

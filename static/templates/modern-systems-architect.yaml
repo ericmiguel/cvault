@@ -1,0 +1,127 @@
+contact:
+  fullName: 'Avery Kinsey'
+  city: 'Portland, OR'
+  phone: '+1 (503) 555-1180'
+  email: 'avery.kinsey@systemsforge.dev'
+  linkedin: 'https://linkedin.com/in/averykinsey'
+  github: 'https://github.com/akinsey'
+  website: 'https://systemsforge.dev'
+
+sectionTitles:
+  summary: 'Profile'
+  skills: 'Core Competencies'
+  experience: 'Impact Timeline'
+  projects: 'Selected Initiatives'
+  education: 'Education'
+
+style:
+  # Visual toggles
+  showHeaderBorder: false
+  showTitleBorder: true
+  showCardSideBorder: false
+  useIcons: true
+
+  # Colors
+  accentColor: '#2563eb'
+
+  # Typography
+  titleFont: "'Space Grotesk', 'Inter', sans-serif"
+  bodyFont: "'Inter', 'Source Sans 3', sans-serif"
+  listFont: "'Inter', 'Source Sans 3', sans-serif"
+  baseFontSize: '15px'
+  documentTitleSize: '1.5em'
+  titleSize: '1.1em'
+  subTitleSize: '1.05em'
+  bodyTextSize: '1em'
+
+  # Spacing
+  sectionSpacing: '28px'
+  itemSpacing: '16px'
+  titleSpacing: '12px'
+  subTitleSpacing: '3px'
+  lineSpacing: 'compact'
+
+  # Badges
+  badgeShape: 'rounded'
+  badgeStyle: 'filled'
+
+  # Inline modes
+  inlineSkills: false
+  inlineExperience: true
+  inlineEducation: true
+  inlineProjects: true
+  inlineContactHeader: true
+
+  # Contact layout
+  contactLayout: 'left'
+  contactItemsPerLine: 3
+
+  # Page breaks
+  pageBreaks:
+    avoidBreakInExperience: true
+    avoidBreakInProjects: true
+    avoidBreakInEducation: false
+
+  # Page margins
+  pageMargins:
+    firstPageTop: 12
+    otherPagesTop: 32
+    bottom: 34
+    left: 58
+    right: 58
+
+summary:
+  text: 'Principal systems architect focused on resilient cloud platforms that balance developer velocity with compliance, reliability, and costs.'
+
+skills:
+  - category: 'Architecture'
+    skills:
+      - 'Service Mesh Design'
+      - 'Event-Driven Systems'
+      - 'Distributed Caching'
+      - 'Multi-Region Failover'
+  - category: 'Leadership'
+    skills:
+      - 'Technical Roadmapping'
+      - 'Engineering Enablement'
+      - 'Org Design'
+      - 'Partner Alignment'
+  - category: 'Delivery'
+    skills:
+      - 'Platform as a Product'
+      - 'Observability Strategy'
+      - 'Compliance Automation'
+      - 'SLO Engineering'
+
+experience:
+  - position: 'Head of Platform Architecture'
+    company: 'Northwind Digital'
+    period: 'Apr 2021 - Present'
+    description: 'Evolved a patchwork infrastructure into an internal developer platform powering 120+ teams with consistent delivery guardrails.'
+  - position: 'Principal Cloud Architect'
+    company: 'Evergreen Analytics'
+    period: 'Jan 2017 - Mar 2021'
+    description: 'Guided the transition from monolithic data services to a stream-first architecture that enabled near-real-time insights.'
+
+projects:
+  - name: 'Atlas Mesh'
+    description: 'Istio-powered service mesh with automated policy enforcement and progressive delivery baked in.'
+    technologies:
+      - 'Kubernetes'
+      - 'Istio'
+      - 'Spinnaker'
+      - 'OPA'
+    repo: 'https://github.com/akinsey/atlas-mesh'
+  - name: 'Emergency Runbook Portal'
+    description: 'Interactive incident command center integrating PagerDuty, Slack, and custom diagnostics runbooks.'
+    technologies:
+      - 'Next.js'
+      - 'Temporal'
+      - 'GraphQL'
+      - 'ClickHouse'
+    link: 'https://runbooks.northwind.digital'
+
+education:
+  - degree: 'Master of Science in Distributed Computing'
+    institution: 'Oregon State University'
+    year: '2012 - 2014'

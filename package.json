@@ -1,0 +1,85 @@
+{
+  "name": "cvault",
+  "version": "1.0.0",
+  "description": "A CLI tool for creating clean and minimalist resumes from YAML files. Customizable, versionable.",
+  "type": "module",
+  "main": "dist/cli.js",
+  "types": "dist/cli.d.ts",
+  "bin": {
+    "cvault": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CUSTOMIZATION.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build && npm run check",
+    "build": "tsc && cp -r src/templates/styles dist/templates/",
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"src/**/*.{ts,js,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,js,json}\"",
+    "type-check": "tsc --noEmit",
+    "check": "npm run format:check && npm run lint && npm run type-check",
+    "generate:all": "tsx scripts/generate-all.ts",
+    "generate:all:pdf": "tsx scripts/generate-all.ts --pdf-only",
+    "generate:all:html": "tsx scripts/generate-all.ts --html-only",
+    "generate:previews": "tsx scripts/capture-previews.ts"
+  },
+  "keywords": [
+    "resume",
+    "cv",
+    "cvault",
+    "resume-generator",
+    "yaml",
+    "cli",
+    "pdf",
+    "html",
+    "resume-builder",
+    "curriculum",
+    "curriculum-vitae"
+  ],
+  "author": "Eric Miguel Ribeiro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericmiguel/cvault.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ericmiguel/cvault/issues"
+  },
+  "homepage": "https://github.com/ericmiguel/cvault#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/node": "^24.6.2",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@vitest/ui": "^3.2.4",
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "knip": "^5.64.1",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.45.0",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "commander": "^14.0.1",
+    "ora": "^8.1.0",
+    "puppeteer": "^24.23.0",
+    "yaml": "^2.8.1"
+  }
+}

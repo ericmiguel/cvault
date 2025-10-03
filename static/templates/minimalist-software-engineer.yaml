@@ -1,0 +1,131 @@
+contact:
+  fullName: 'Noah A. Valencia'
+  email: 'noah.valencia@craftedlabs.dev'
+  linkedin: 'https://linkedin.com/in/noahavalencia'
+  github: 'https://github.com/noahav'
+
+sectionTitles:
+  summary: ''
+  skills: ''
+  experience: 'Experience Highlights'
+  projects: 'Side Projects'
+  education: 'Education'
+
+style:
+  # Visual toggles
+  showHeaderBorder: true
+  showTitleBorder: true
+  showCardSideBorder: false
+  useIcons: true
+
+  # Colors
+  accentColor: '#1e293b'
+
+  # Typography
+  titleFont: "'Fira Code', 'Courier New', monospace"
+  bodyFont: "'Source Sans 3', 'Source Sans Pro', 'Merriweather', serif"
+  listFont: "'Source Sans 3', 'Source Sans Pro', 'Merriweather', serif"
+  baseFontSize: '12px'
+  documentTitleSize: '1.5em'
+  titleSize: '1.2em'
+  subTitleSize: '1.1em'
+  bodyTextSize: '1em'
+
+  # Spacing
+  sectionSpacing: '28px'
+  itemSpacing: '18px'
+  titleSpacing: '15px'
+  subTitleSpacing: '4px'
+  lineSpacing: 'default'
+
+  # Badges
+  badgeShape: 'rectangular'
+  badgeStyle: 'outlined'
+
+  # Inline modes
+  inlineSkills: true
+  inlineExperience: true
+  inlineEducation: true
+  inlineProjects: false
+  inlineContactHeader: true
+
+  # Contact layout
+  contactLayout: 'left'
+  contactItemsPerLine: 3
+
+  # Page breaks
+  pageBreaks:
+    avoidBreakInExperience: true
+    avoidBreakInProjects: true
+    avoidBreakInEducation: true
+
+  # Page margins
+  pageMargins:
+    firstPageTop: 0
+    otherPagesTop: 32
+    bottom: 30
+    left: 60
+    right: 50
+
+summary:
+  text: 'Principal Product Engineer with 12+ years orchestrating end-to-end platform initiatives, blending data fluency with empathetic leadership to deliver sustainable outcomes.'
+
+skills:
+  - category: 'Languages'
+    skills:
+      - 'TypeScript'
+      - 'Go'
+      - 'Rust'
+      - 'Python'
+  - category: 'Frameworks'
+    skills:
+      - 'React'
+      - 'Next.js'
+      - 'NestJS'
+      - 'FastAPI'
+  - category: 'Data & Ops'
+    skills:
+      - 'PostgreSQL'
+      - 'BigQuery'
+      - 'Kubernetes'
+      - 'Terraform'
+  - category: 'Leadership'
+    skills:
+      - 'Product Strategy'
+      - 'UX Research'
+      - 'Mentorship'
+      - 'Stakeholder Alignment'
+
+experience:
+  - position: 'Principal Product Engineer'
+    company: 'Clarity Systems'
+    period: 'Feb 2021 - Present'
+    description: 'Anchored platform strategy and servant leadership rituals that align data quality initiatives with product delivery cadences.'
+  - position: 'Lead Full Stack Engineer'
+    company: 'Nova Labs'
+    period: 'Aug 2017 - Jan 2021'
+    description: 'Directed the rebuild of the core billing platform, partnering with legal, finance, and design to deliver an auditable customer experience across three regions.'
+
+projects:
+  - name: 'Polyglot Studio'
+    description: 'An interactive playground for compiling, benchmarking, and visualizing algorithms across languages.'
+    technologies:
+      - 'Astro'
+      - 'WASM'
+      - 'D3.js'
+      - 'Vite'
+    link: 'https://polyglot.studio'
+    repo: 'https://github.com/sasharibeiro/polyglot-studio'
+  - name: 'Atlas Kit'
+    description: 'Open-source starter for multi-region SaaS products with hardened DDD boundaries and dev ergonomics.'
+    technologies:
+      - 'Turborepo'
+      - 'Prisma'
+      - 'PlanetScale'
+      - 'OpenTelemetry'
+    repo: 'https://github.com/sasharibeiro/atlas-kit'
+
+education:
+  - degree: 'Master of Science in Human-Centered Computing'
+    institution: 'University of Porto'
+    year: '2012 - 2014'

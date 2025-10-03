@@ -1,0 +1,112 @@
+contact:
+  fullName: 'Mariana Cortez'
+  email: 'hello@marianacreates.com'
+  linkedin: 'https://linkedin.com/in/marianacortez'
+  website: 'https://marianacreates.com'
+
+sectionTitles:
+  summary: 'Creative Statement'
+  skills: 'Creative Tools'
+  experience: 'Brand Experiments'
+  projects: 'Campaign Highlights'
+  education: 'Formation'
+
+style:
+  # Visual toggles
+  showHeaderBorder: true
+  showTitleBorder: false
+  showCardSideBorder: true
+  useIcons: true
+
+  # Colors
+  accentColor: '#460c5e'
+
+  # Typography
+  titleFont: "'Playfair Display', 'Georgia', serif"
+  bodyFont: "'Work Sans', 'Source Sans 3', sans-serif"
+  listFont: "'Work Sans', 'Source Sans 3', sans-serif"
+  baseFontSize: '15px'
+  documentTitleSize: '1.5em'
+  titleSize: '1.15em'
+  subTitleSize: '1.1em'
+  bodyTextSize: '1em'
+
+  # Spacing
+  sectionSpacing: '28px'
+  itemSpacing: '18px'
+  titleSpacing: '15px'
+  subTitleSpacing: '4px'
+  lineSpacing: 'default'
+
+  # Badges
+  badgeShape: 'rounded'
+  badgeStyle: 'outlined'
+
+  # Inline modes
+  inlineSkills: true
+  inlineExperience: false
+  inlineEducation: false
+  inlineProjects: false
+  inlineContactHeader: true
+
+  # Contact layout
+  contactLayout: 'left'
+  contactItemsPerLine: 2
+
+  # Page breaks
+  pageBreaks:
+    avoidBreakInExperience: true
+    avoidBreakInProjects: false
+    avoidBreakInEducation: false
+
+  # Page margins
+  pageMargins:
+    firstPageTop: 0
+    otherPagesTop: 32
+    bottom: 30
+    left: 60
+    right: 50
+
+summary:
+  text: 'Brand strategist translating research-driven insights into human, measurable cross-channel narratives.'
+
+skills:
+  - category: 'Strategy'
+    skills:
+      - 'Brand Architecture'
+      - 'Voice & Tone Systems'
+      - 'Stakeholder Facilitation'
+  - category: 'Craft'
+    skills:
+      - 'Art Direction'
+      - 'Motion Storyboards'
+      - 'Editorial Design'
+  - category: 'Platforms'
+    skills:
+      - 'Figma'
+      - 'Adobe Creative Cloud'
+      - 'Notion'
+
+experience:
+  - position: 'Lead Brand Strategist'
+    company: 'Lumen & Co.'
+    period: 'May 2020 - Present'
+    description: 'Headed cross-channel storytelling sprints for emerging wellness labels, from insight to launch.'
+  - position: 'Senior Art Director'
+    company: 'Horizon Collective'
+    period: 'Jan 2016 - Apr 2020'
+    description: 'Delivered multi-sensory event identities and digital companions for global tech conferences.'
+
+projects:
+  - name: 'Glow Ritual Launch'
+    description: 'Immersive lifestyle campaign spanning shoppable stories, pop-up installations, and editorial content.'
+    technologies:
+      - 'Figma'
+      - 'After Effects'
+      - 'Webflow'
+    link: 'https://marianacreates.com/glow-ritual'
+
+education:
+  - degree: 'Bachelor of Fine Arts in Visual Communication'
+    institution: 'Savannah College of Art and Design'
+    year: '2011 - 2015'

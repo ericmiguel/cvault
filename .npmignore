@@ -1,0 +1,33 @@
+# Source files
+src/
+scripts/
+
+# Configuration files
+tsconfig.json
+eslint.config.js
+.prettierrc
+.prettierignore
+
+# Development files
+*.log
+*.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Tests
+test/
+tests/
+*.test.ts
+*.spec.ts
+
+# Static files (examples and previews)
+static/
